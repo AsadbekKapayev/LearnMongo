@@ -2,7 +2,9 @@ findOne
 
 1) structure
 
+```
 db.collection.findOne(query, projection)
+```
 
 The findOne() accepts two optional arguments: query and projection.
 
@@ -11,8 +13,12 @@ The projection is a document that specifies the fields in the matching document 
 
 2) example 
 
+```
 db.products.findOne({_id:2})
+```
 
 3) example 
 
+```
 db.products.findOne({_id: 5}, {name: 1})
+```

@@ -2,17 +2,21 @@ Insert one
 
 1) structure
 
+```
 db.collection.insertOne(
     <document>,
     { writeConcern: <document>}
 )
+```
 
 2) example
 
+```
 db.books.insertOne({
     title: 'MongoDB insertOne',
     isbn: '0-7617-6154-3'
 });
+```
 
 
 The insertOne() method accepts two arguments:
